@@ -6,12 +6,17 @@
 Plant height is a key trait studied in breeding and research programs. Measurements in the field are time-consuming as they require manual measurements with several replicates.  The UPHS is a phenotyping device that provides a significant improvement in sampling time and sample size. It uses low-cost ultrasonic sensors to screen the field canopy and obtain an accurate biological sample of this trait.
 ![UPHS gif](Images/Wheat-height.gif)
 
-## Software
-TBA
+
 
 ## Hardware
 The UHPS will use an Arduino microcontroller and ultrasonic sensors to acquire plant height data. The ultrasonic sensor will emit a sound wave that will bounce back from the canopy. An initial read or manual input can be used as baseline (sensor height from the ground). This will be possible using a screen and at least three buttons. Once height zero is stored, we can calculate height from each data point and average a value from hundreds of data points collected in just a few seconds.
 ![diagram](Images/Diagram.png)
+
+## Software
+The source of the software is modular, with each hardware component having a component to encapsulate the execution. The loop in the controller is described in the following diagram:
+[!diagramSoftware](Images/softwareDiagram)
+
+
 
 ## Installation, Maintenance and Testing Guide
 TBA
