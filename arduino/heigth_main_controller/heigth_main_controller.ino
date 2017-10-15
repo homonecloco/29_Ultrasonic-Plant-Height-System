@@ -76,7 +76,7 @@ void loop() {
   //sonic_sensor_print_reads();
   if(save){
    Serial.print(distance);
-   Serial.print("\n");
+   Serial.print(":\n");
    }
   // put your main code here, to run repeatedly:
   
