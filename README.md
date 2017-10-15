@@ -14,7 +14,7 @@ The UHPS will use an Arduino microcontroller and ultrasonic sensors to acquire p
 
 ## Software
 The source of the software is modular, with each hardware component having a component to encapsulate the execution. The loop in the controller is described in the following diagram:
-[!diagramSoftware](Images/softwareDiagram)
+[!diagramSoftware](Images/softwareDiagram.png)
 
 
 
